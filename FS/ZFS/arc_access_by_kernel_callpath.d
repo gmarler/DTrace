@@ -3,7 +3,7 @@
 sdt:zfs::arc-hit,
 sdt:zfs::arc-miss
 {
-  @[execname] = count();
+  @[execname, probefunc, stack()] = count();
 }
 
 tick-1min
