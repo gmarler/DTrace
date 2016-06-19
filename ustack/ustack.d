@@ -2,7 +2,7 @@
 
 #pragma D option destructive
 
-profile-997Hz
+profile-2001Hz
 / execname == "nscd" /
 {
   @s1[ustack()] = count();
